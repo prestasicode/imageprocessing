@@ -1,3 +1,3 @@
-# Credit-Scoring-with-Logistic-Regression
+# Campaign Residual Analytics with ML Algorithm
 
-This an attempt to improve baseline Logistic regression on credit scoring task via proper feature engineering and feature selection methods in combination with some hyperparameter tuning. It is solely for educational purposes.
+Collaborative Filtering, Association Rules can be elaborated to get insight and action after processing predictive data
