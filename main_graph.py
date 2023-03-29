@@ -1,3 +1,5 @@
+# issue define pipeline_config
+
 def main(_):
       pipeline_config = pipeline_pb2.TrainEvalPipelineConfig()
   with tf.gfile.GFile(FLAGS.pipeline_config_path, 'r') as f:
@@ -8,6 +10,7 @@ def main(_):
         int(dim) if dim != '-1' else None
         for dim in FLAGS.input_shape.split(',')
     ]
+#pipeline_config call variables
   else:
     input_shape = None
   exporter.export_inference_graph(FLAGS.input_type, pipeline_config,
