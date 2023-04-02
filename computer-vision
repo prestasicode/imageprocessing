@@ -1,0 +1,19 @@
+Computer vision (CV) is a field of artificial intelligence that focuses on enabling machines to interpret and analyze visual information from the world around them. With the increasing amount of digital images and videos available, CV has become increasingly important in a variety of fields, including robotics, autonomous vehicles, healthcare, entertainment, and more.
+
+Object classification, object detection, and object segmentation are all fundamental tasks in computer vision. Each of these tasks plays a unique role in helping machines recognize and interpret images. In this article, we'll explore the differences between these three tasks and their practical applications.
+
+💎Object Classification:
+
+⭐️ Object classification involves identifying the class or category to which an object belongs. For instance, if an image contains a dog, a cat, and a horse, the task of object classification would be to label each of these objects accordingly. Object classification is often used in applications such as facial recognition, where the goal is to identify the person in the image.
+
+💎Object Detection:
+
+⭐️ Object detection involves locating and identifying objects within an image. Unlike object classification, object detection identifies not only what objects are present in an image but also their locations. Object detection is often used in applications such as self-driving cars, where the vehicle needs to be able to identify and track other vehicles, pedestrians, and obstacles.
+
+💎Object Segmentation:
+
+⭐️ Object segmentation involves identifying the boundaries of objects within an image. Unlike object detection, object segmentation identifies not only the locations of objects but also their shapes. Object segmentation is often used in applications such as medical imaging, where the goal is to identify and isolate specific organs or structures within an image.
+
+While these tasks are distinct, they often build upon one another. For instance, object detection can be thought of as a combination of object classification and object segmentation. By first identifying the objects present in an image and then locating their boundaries, we can accurately determine their location and shape.
+
+In conclusion, object classification, object detection, and object segmentation are all essential tasks in computer vision, each with its unique set of applications. Understanding the differences between these tasks is critical in developing computer vision models that can accurately interpret and analyze images in real-world scenarios.
