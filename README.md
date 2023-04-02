@@ -9,8 +9,9 @@ Since images contain a consistent pattern spanning several pixels, processing th
 
 This is why CNNs that process images in patches or windows are now the de-facto choice for image processing tasks.
 
-<br />
+
 ## Definition 
+
 Image processing is the process of transforming an image into a digital form and performing certain operations to get some useful information from it. The image processing system usually treats all images as 2D signals when applying certain predetermined signal processing methods.
 <br />
 <br />
